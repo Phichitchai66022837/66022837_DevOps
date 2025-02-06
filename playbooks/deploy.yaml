@@ -5,7 +5,7 @@
   tasks:
     - name: Creating the Container
       docker_container:
-         name: 66022837_DevOps #docker container name
+         name: 66022837_DevOps-container #docker container name
          image: 66022837_DevOps:latest #docker image name
          ports:
            - "2019:80" #เลข port ตัวแรกคือเลข  port ที่รับมาจาก browser ตัวหลังคือ  port ของ docker (คงไว้ที่ 80 ถ้าเป็น nextjs project ก็ 3000)
