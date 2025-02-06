@@ -8,6 +8,6 @@
          name: 66022837_DevOps:latest #docker image name
          source: build
          build:
-            path: ~/tamjaija-main #path ที่เก็บไฟล์ sourcecode 
+            path: ~/66022837_DevOps #path ที่เก็บไฟล์ sourcecode 
          state: present
          force_source: true
